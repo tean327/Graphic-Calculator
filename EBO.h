@@ -13,5 +13,4 @@ public:
 	void UnBind();
 	void Delete();
 };
-
-#endif 
+#endif

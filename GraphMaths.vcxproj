@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,6 +133,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Image Include="..\..\..\Downloads\grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
@@ -141,17 +150,8 @@
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Downloads\grid.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="default.frag" />
     <None Include="default.vert" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="EBO.h" />
-    <ClInclude Include="shaderClass.h" />
-    <ClInclude Include="VAO.h" />
-    <ClInclude Include="VBO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
