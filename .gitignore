@@ -9,3 +9,5 @@
 *.ipch
 *.suo
 *.json
+*.sln
+*.vcxproj
