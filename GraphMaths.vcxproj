@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\Librairies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\Librairies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graph\GraphMaths\Librairies\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\Librairies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\Librairies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
