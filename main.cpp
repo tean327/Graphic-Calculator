@@ -14,12 +14,14 @@
 #define e 2.71828182845904523536
 
 
-GLuint uniID;
+GLuint uniID;	
 
-
+#pragma region WindowVar
 int WindowSizeX = 1000;
 int WindowSizeY = 800;
 GLFWwindow* window;
+#pragma endregion
+
 const long long  iteration = 99999999;
 GLfloat vertices[iteration*3];
 std::string input;
@@ -28,13 +30,14 @@ float (*func)(float);
 double constante;
 float x;
 
+#pragma region FunctionDeclarations
 int HandleInput(std::string input);
 int CreateWindow();
 int DrawFunction();	
 int DrawGraph();
 int AddVertices();
 float f(float x);
-
+#pragma endregion
 
 
 int main(void)

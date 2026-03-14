@@ -1,35 +1,46 @@
-﻿La génération a démarré 05/03/2026 16:55:45.
-La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\GraphMaths.vcxproj" sur le nœud 2 (Build cible(s)).
+﻿La génération a démarré 14/03/2026 17:02:21.
+La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" sur le nœud 2 (Build cible(s)).
      1>PrepareForBuild:
          La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
        InitializeBuildStatus:
          Création de "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
          Mise à jour de l'horodatage "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"GraphMaths\x64\Debug\\" /Fd"GraphMaths\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"GraphMaths\x64\Debug\\" /Fd"GraphMaths\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt EBO.cpp main.cpp shaderClass.cpp VAO.cpp VBO.cpp
+         EBO.cpp
          main.cpp
-     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\main.cpp(225,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
-         Toutes les sorties sont à jour.
+     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(225,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+         shaderClass.cpp
+     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\shaderClass.cpp(1,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+         VAO.cpp
+         VBO.cpp
+         Génération de code en cours...
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"GraphMaths\x64\Debug\\" /Fd"GraphMaths\x64\Debug\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt glad.c
+         glad.c
        Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\egrim\Documents\projet-codage\GraphMaths\x64\Debug\GraphMaths.exe" /INCREMENTAL /ILK:"GraphMaths\x64\Debug\GraphMaths.ilk" /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\x64\Debug\GraphMaths.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\x64\Debug\GraphMaths.lib" /MACHINE:X64 GraphMaths\x64\Debug\EBO.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe" /INCREMENTAL /ILK:"GraphMaths\x64\Debug\GraphMaths.ilk" /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.lib" /MACHINE:X64 GraphMaths\x64\Debug\EBO.obj
          GraphMaths\x64\Debug\glad.obj
          GraphMaths\x64\Debug\main.obj
          GraphMaths\x64\Debug\shaderClass.obj
          GraphMaths\x64\Debug\VAO.obj
          GraphMaths\x64\Debug\VBO.obj
-         GraphMaths.vcxproj -> C:\Users\egrim\Documents\projet-codage\GraphMaths\x64\Debug\GraphMaths.exe
+         LINK : C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+         GraphMaths.vcxproj -> C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe
+       TlogCleanup:
+         Suppression des éléments suivants des tlogs tels qu'ils ont été supprimés du projet ou de la construction : C:\Users\egrim\Documents\projet-codage\GraphMaths\EBO.cpp
        FinalizeBuildStatus:
          Suppression du fichier "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
          Mise à jour de l'horodatage "GraphMaths\x64\Debug\GraphMaths.tlog\GraphMaths.lastbuildstate".
-     1>Génération du projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\GraphMaths.vcxproj" terminée (Build cible(s)).
+     1>Génération du projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" terminée (Build cible(s)).
 
 La génération a réussi.
 
-       "C:\Users\egrim\Documents\projet-codage\GraphMaths\GraphMaths.vcxproj" (Build cible) (1) ->
+       "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" (Build cible) (1) ->
        (ClCompile cible) -> 
-         C:\Users\egrim\Documents\projet-codage\GraphMaths\main.cpp(225,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(225,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\shaderClass.cpp(1,9): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
 
-    1 Avertissement(s)
+    2 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.24
+Temps écoulé 00:00:03.31
