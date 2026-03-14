@@ -72,14 +72,13 @@ int HandleInput(std::string input)
 	if (count == input.length()) constante = stoi(input);
 
 	//Handle functions input
-	else if (input == "sin(x)") func = sin;
-	else if (input == "cos(x)") func = cos;
-	else if (input == "tan(x)") func = tan;
-	else if (input == "asin(x)") func = asin;
-	else if (input == "acos(x)") func = acos;
-	else if (input == "atan(x)") func = atan;
+	else if (input == "sin(x)" || input =="sin") func = sin;
+	else if (input == "cos(x)" || input == "cos") func = cos;
+	else if (input == "tan(x)" || input == "tan") func = tan;
+	else if (input == "asin(x)" || input == "asin") func = asin;
+	else if (input == "acos(x)" || input == "acos") func = acos;
+	else if (input == "atan(x)" || input == "atan") func = atan;
 	else if (input == "x^2" || input == "x²") func = sqrt;
-	else if (input == "x^3");
 	else if (input == "log(x)") func = log;
 	else if (input == "log2(x)") func = log2;
 	else if (input == "log10(x)") func = log10;
