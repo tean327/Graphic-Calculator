@@ -27,6 +27,8 @@ GLfloat vertices[iteration*3];
 std::string input;
 
 float (*func)(float);
+float (*func2)(float, float);
+float param;
 double constante;
 float x;
 
@@ -78,7 +80,17 @@ int HandleInput(std::string input)
 	else if (input == "asin(x)" || input == "asin") func = asin;
 	else if (input == "acos(x)" || input == "acos") func = acos;
 	else if (input == "atan(x)" || input == "atan") func = atan;
-	else if (input == "x^2" || input == "x²") func = sqrt;
+	else if (input == "x^2" || input == "x²") 
+	{ 
+		func2 = powf; 
+		param = 2;
+	}
+	else if (input == "x^3") 
+	{ 
+		func2 = powf; 
+		param = 3;
+	}
+	else if (input == "square" || input == "Vx") func = sqrt;
 	else if (input == "log(x)") func = log;
 	else if (input == "log2(x)") func = log2;
 	else if (input == "log10(x)") func = log10;
@@ -223,6 +235,7 @@ int AddVertices()
 
 float f(float x)
 {
-	if(func != nullptr) return func(x);
+	if (func != nullptr) return func(x);
+	else if (func2 != nullptr) return func2(x, param);
 	return constante;
 }
