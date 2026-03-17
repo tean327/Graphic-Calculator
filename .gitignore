@@ -12,3 +12,4 @@
 *.sln
 *.vcxproj
 GraphMaths.sln
+GraphMaths/x64/Debug
