@@ -1,4 +1,4 @@
-﻿La génération a démarré 17/03/2026 11:51:59.
+﻿La génération a démarré 17/03/2026 21:18:05.
 La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" sur le nœud 2 (Build cible(s)).
      1>PrepareForBuild:
          La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
@@ -17,6 +17,7 @@ La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\eg
          GraphMaths\x64\Debug\shaderClass.obj
          GraphMaths\x64\Debug\VAO.obj
          GraphMaths\x64\Debug\VBO.obj
+         LINK : C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
          GraphMaths.vcxproj -> C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe
        FinalizeBuildStatus:
          Suppression du fichier "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
@@ -32,4 +33,4 @@ La génération a réussi.
     1 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:00.90
+Temps écoulé 00:00:02.37
