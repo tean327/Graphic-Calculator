@@ -63,15 +63,14 @@ int main(void)
 int HandleInput(std::string input)
 {		
 	//Need to change this into a parsing algorithm
-	
-	int count = 0;
-	for (int i = 0; i < input.length(); i++)
-	{
-		if (!isdigit(input[i])) continue;
-		count++;
-	}
+		int count = 0;
+		for (int i = 0; i < input.length(); i++)
+		{
+			if (!isdigit(input[i])) continue;
+			count++;
+		}
+		if (count == input.length()) constante = stoi(input);
 
-	if (count == input.length()) constante = stoi(input);
 
 	//Handle functions input
 	else if (input == "sin(x)" || input =="sin") func = sin;
@@ -220,22 +219,22 @@ int DrawFunction()
 
 int AddVertices()
 {
-	x = float(-iteration)* 0.000001f;
+	x = float(-iteration) * 0.000001f;
 	//We iterate by three for the three coordonates of the points, we don't have to declare a value for z because we're in 2D
 	for ( int i = 0; i <= iteration*3; i+=3)
 	{
 		float y = f(x);
 		vertices[i] = x;
 		vertices[i + 1] = y;
-
 		x += 0.1f;
 	}
 	return 0;
 }
 
-float f(float x)
+float f(float pX)
 {
-	if (func != nullptr) return func(x);
-	else if (func2 != nullptr) return func2(x, param);
+	if (func != nullptr)  return func(pX);
+	else if (func2 != nullptr) return func2(pX, param);
+	else if (constante = x) return pX;
 	return constante;
 }
