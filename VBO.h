@@ -14,4 +14,4 @@ class VBO
 	 void Delete();
 };
 
-#endif // !VBO_CLASS_H
+#endif

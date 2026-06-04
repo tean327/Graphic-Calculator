@@ -1,4 +1,4 @@
-﻿La génération a démarré 17/03/2026 21:18:05.
+﻿La génération a démarré 04/06/2026 16:16:42.
 La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" sur le nœud 2 (Build cible(s)).
      1>PrepareForBuild:
          La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
@@ -8,7 +8,7 @@ La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\eg
        ClCompile:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"GraphMaths\x64\Debug\\" /Fd"GraphMaths\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
-     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(240,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(251,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
          Toutes les sorties sont à jour.
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe" /INCREMENTAL /ILK:"GraphMaths\x64\Debug\GraphMaths.ilk" /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.lib" /MACHINE:X64 GraphMaths\x64\Debug\EBO.obj
@@ -17,7 +17,6 @@ La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\eg
          GraphMaths\x64\Debug\shaderClass.obj
          GraphMaths\x64\Debug\VAO.obj
          GraphMaths\x64\Debug\VBO.obj
-         LINK : C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
          GraphMaths.vcxproj -> C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe
        FinalizeBuildStatus:
          Suppression du fichier "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
@@ -28,9 +27,9 @@ La génération a réussi.
 
        "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" (Build cible) (1) ->
        (ClCompile cible) -> 
-         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(240,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(251,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
 
     1 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:02.37
+Temps écoulé 00:00:01.25
