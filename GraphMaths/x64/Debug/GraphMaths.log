@@ -1,14 +1,13 @@
-﻿La génération a démarré 04/06/2026 16:16:42.
+﻿La génération a démarré 04/06/2026 16:25:36.
 La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" sur le nœud 2 (Build cible(s)).
      1>PrepareForBuild:
          La sortie structurée est activée. La mise en forme du compilateur diagnostics reflète la hiérarchie des erreurs. Pour plus d’informations, consultez https://aka.ms/cpp/structured-output.
        InitializeBuildStatus:
-         Création de "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
          Mise à jour de l'horodatage "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
        ClCompile:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"GraphMaths\x64\Debug\\" /Fd"GraphMaths\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
-     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(251,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+     1>C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(260,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
          Toutes les sorties sont à jour.
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe" /INCREMENTAL /ILK:"GraphMaths\x64\Debug\GraphMaths.ilk" /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.lib" /MACHINE:X64 GraphMaths\x64\Debug\EBO.obj
@@ -17,6 +16,27 @@ La verbosité de la journalisation a la valeur Normal.     1>Projet "C:\Users\eg
          GraphMaths\x64\Debug\shaderClass.obj
          GraphMaths\x64\Debug\VAO.obj
          GraphMaths\x64\Debug\VBO.obj
+     1>glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(input.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_time.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_thread.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(platform.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(platform.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(vulkan.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(null_init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_module.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_module.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_joystick.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(wgl_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(egl_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(osmesa_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(null_monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(null_window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+     1>glfw3.lib(null_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_joystick.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
          GraphMaths.vcxproj -> C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\GraphMaths.exe
        FinalizeBuildStatus:
          Suppression du fichier "GraphMaths\x64\Debug\GraphMaths.tlog\unsuccessfulbuild".
@@ -27,9 +47,34 @@ La génération a réussi.
 
        "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" (Build cible) (1) ->
        (ClCompile cible) -> 
-         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(251,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+         C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\main.cpp(260,9): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
 
-    1 Avertissement(s)
+
+       "C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\GraphMaths.vcxproj" (Build cible) (1) ->
+       (Link cible) -> 
+         glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(input.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_time.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_thread.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(platform.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(platform.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(vulkan.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(null_init.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_init.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_module.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_module.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(win32_joystick.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(wgl_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(egl_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(osmesa_context.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(null_monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_monitor.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(null_window.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_window.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+         glfw3.lib(null_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' n'a pu être trouvé avec 'glfw3.lib(null_joystick.obj)' ou sur 'C:\Users\egrim\Documents\projet-codage\GraphMaths\Graphic-Calculator\x64\Debug\glfw3.pdb' ; l'objet sera lié sans informations de débogage
+
+    22 Avertissement(s)
     0 Erreur(s)
 
-Temps écoulé 00:00:01.25
+Temps écoulé 00:00:01.45
